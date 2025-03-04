@@ -30,6 +30,11 @@ jobs:
       - name: Build Project
         run: npm run build
 
+      - name: Fix Routing for Single Page App
+        run: |
+          cd dist
+          cp index.html 404.html
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
