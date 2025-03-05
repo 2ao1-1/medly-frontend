@@ -8,9 +8,20 @@
   font-family: "Roygen";
   src: url(/public//roygendisplay-regular.ttf);
 }
-h1 {
-  font-family: "Roygen";
+@theme {
+  /* colors */
+  /* --color-paper: #fcfcfc;
+  --color-mainlines: #000000;
+  --color-darktext: #333333;
+  --color-midText: #666666;
+  --color-lightText: #d8cfc0; */
+
+  /* fonts */
+  --font-title: "Roygen", "serif";
+  --font-headline: "BebasNeue", "Arial", "sans-serif";
+  --font-content: "Arial", "sans-serif";
 }
+
 #logo {
   filter: hue-rotate(0deg);
 }
